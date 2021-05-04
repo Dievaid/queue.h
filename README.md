@@ -11,8 +11,8 @@
 <h3>Examples: </h3>
 
 1. Queue* queue = createQueue();
-2. en(queue, (int*)&yourVariable);
-3. yourVariable = *(int**)de(queue);  
+2. en(queue, (yourDataType*)&yourVariable);
+3. yourVariable = *(yourDataType**)de(queue);  
 -> Use * before the paranthesis with yourDataType pointer or it will give you a compile error. I cannot modify the example because it will bold it.
 
 <h2>Hints</h2>
