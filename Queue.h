@@ -22,7 +22,7 @@ queueNode* makeNode(void* data) {
 
 /**
  * Creates an empty queue
- * @return none
+ * @return Your empty queue
 */
 Queue* createQueue() {
     Queue* newQueue = (Queue*)malloc(sizeof(Queue));
